@@ -10,6 +10,11 @@ const btn = document.getElementById('calculate');
         return;
     }
 
+    if(height == "0" || weight == "0"){
+        alert("silahkan isi dengan benar")
+        return;
+    }
+
     //BMI = weight KG
     height = height / 100
 
